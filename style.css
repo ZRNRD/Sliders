@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+}
+
+.btns button{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+
+.container{
+    text-align: center;
+    background: rgb(192, 192, 192);
+    width: 80vw;
+    margin: 0 auto;
+}
+
+/* Horizontal Slider */
+
+.horizontal-slider{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.horizontal-slider__line{
+    display: flex;
+    background-color: cornflowerblue;
+    width: 600px;
+    height: 200px;
+    position: relative;
+    left: 0;
+    transition: all ease .7s;
+}
+
+.horizontal-slider__item{
+    width: 200px;
+    height: 200px;
+}
+
+/* Vertical Slider */
+
+.vertical-slider{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.vertical-slider__line{
+    display: grid;
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 600px;
+    position: relative;
+    top: 0;
+    transition: all ease .7s;
+}
+
+.vertical-slider__item{
+    width: 200px;
+    height: 200px;
+}
